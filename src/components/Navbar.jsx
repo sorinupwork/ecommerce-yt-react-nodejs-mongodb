@@ -15,7 +15,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex-1">
-          <h1 className="font-bold text-3xl text-center">Madam Ink Online</h1>
+          <h1 className="font-bold text-3xl text-center cursor-pointer">
+            Madam Ink Online
+          </h1>
         </div>
         <div className=" flex flex-1 items-center justify-end">
           <div className="text-sm cursor-pointer ml-6">REGISTER</div>
