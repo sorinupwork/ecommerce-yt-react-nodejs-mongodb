@@ -19,10 +19,10 @@ const Navbar = () => {
             Madam Ink Online
           </h1>
         </div>
-        <div className=" flex flex-1 items-center justify-end">
-          <div className="text-sm cursor-pointer ml-6">REGISTER</div>
-          <div className="text-sm cursor-pointer ml-6">SIGN IN</div>
-          <div className="text-sm cursor-pointer ml-6">
+        <div className="flex flex-1 items-center justify-end overflow-hidden">
+          <div className="text-sm cursor-pointer m-4">REGISTER</div>
+          <div className="text-sm cursor-pointer m-4">SIGN IN</div>
+          <div className="text-sm cursor-pointer m-4">
             <Badge badgeContent={3} color="primary">
               <ShoppingCartOutlinedIcon />
             </Badge>
